@@ -5,6 +5,7 @@ import { UseTitlePractice } from './hooks/useTitle';
 import { UseClickPractice } from './hooks/useClick';
 import { UseConfirmPractice } from './hooks/useConfirm';
 import { UsePreventLeavePractice } from './hooks/usePreventLeave';
+import { UseBeforeLeavePractice } from './hooks/useBeforeLeave';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <UseClickPractice />
       <UseConfirmPractice />
       <UsePreventLeavePractice />
+      <UseBeforeLeavePractice />
     </div>
   );
 }
