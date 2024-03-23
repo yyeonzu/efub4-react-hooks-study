@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const useInput = (initialValue, validator) => {
+export const useInput = (initialValue, validator) => {
   const [value, setValue] = useState(initialValue);
   const onChange = (e) => {
     // 검증 과정
@@ -18,7 +18,7 @@ const useInput = (initialValue, validator) => {
 
 export const UseInputPractice = () => {
   const validator = (value) => !value.includes('@') && value.length <= 10;
-  const name = useInput('정연주', validator);
+  const name = useInput('', validator);
 
   return (
     <div>
