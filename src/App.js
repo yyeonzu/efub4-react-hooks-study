@@ -1,14 +1,14 @@
 import React from 'react';
-import { InputPractice } from './useInput';
-import { TabPractice } from './useTab';
-import { TitlePractice } from './useTitle';
+import { UseInputPractice } from './hooks/useInput';
+import { UseTabPractice } from './hooks/useTab';
+import { UseTitlePractice } from './hooks/useTitle';
 
 function App() {
   return (
     <div className="App">
-      <InputPractice />
-      <TabPractice />
-      <TitlePractice />
+      <UseInputPractice />
+      <UseTabPractice />
+      <UseTitlePractice />
     </div>
   );
 }

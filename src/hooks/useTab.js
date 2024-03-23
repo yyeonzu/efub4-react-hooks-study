@@ -22,7 +22,7 @@ const useTab = (initialTab, allTabs) => {
   };
 };
 
-export const TabPractice = () => {
+export const UseTabPractice = () => {
   const { currentItem, changeItem } = useTab(0, content);
   return (
     <div>

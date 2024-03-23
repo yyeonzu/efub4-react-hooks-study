@@ -10,7 +10,7 @@ const useTitle = (initialTitle) => {
   return setTitle;
 };
 
-export const TitlePractice = () => {
+export const UseTitlePractice = () => {
   const titleUpdater = useTitle('Loading...');
   setTimeout(() => titleUpdater('Home'), 3000);
   return (

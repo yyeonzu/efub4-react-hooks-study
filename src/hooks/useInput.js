@@ -16,7 +16,7 @@ const useInput = (initialValue, validator) => {
   return { value, onChange };
 };
 
-export const InputPractice = () => {
+export const UseInputPractice = () => {
   const validator = (value) => !value.includes('@') && value.length <= 10;
   const name = useInput('정연주', validator);
 
