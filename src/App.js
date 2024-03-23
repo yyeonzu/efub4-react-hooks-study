@@ -3,6 +3,8 @@ import { UseInputPractice } from './hooks/useInput';
 import { UseTabPractice } from './hooks/useTab';
 import { UseTitlePractice } from './hooks/useTitle';
 import { UseClickPractice } from './hooks/useClick';
+import { UseConfirmPractice } from './hooks/useConfirm';
+import { UsePreventLeavePractice } from './hooks/usePreventLeave';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <UseTabPractice />
       <UseTitlePractice />
       <UseClickPractice />
+      <UseConfirmPractice />
+      <UsePreventLeavePractice />
     </div>
   );
 }
