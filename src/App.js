@@ -8,6 +8,8 @@ import { UsePreventLeavePractice } from './hooks/usePreventLeave';
 import { UseBeforeLeavePractice } from './hooks/useBeforeLeave';
 import { UseFadeInPractice } from './hooks/useFadeIn';
 import { UseNetworkPractice } from './hooks/useNetwork';
+import { UseScrollPractice } from './hooks/useScroll';
+import { UseFullScreenPractice } from './hooks/useFullScreen';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <UseBeforeLeavePractice />
       <UseFadeInPractice />
       <UseNetworkPractice />
+      <UseScrollPractice />
+      <UseFullScreenPractice />
     </div>
   );
 }
