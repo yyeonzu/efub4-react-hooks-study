@@ -6,6 +6,8 @@ import { UseClickPractice } from './hooks/useClick';
 import { UseConfirmPractice } from './hooks/useConfirm';
 import { UsePreventLeavePractice } from './hooks/usePreventLeave';
 import { UseBeforeLeavePractice } from './hooks/useBeforeLeave';
+import { UseFadeInPractice } from './hooks/useFadeIn';
+import { UseNetworkPractice } from './hooks/useNetwork';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <UseConfirmPractice />
       <UsePreventLeavePractice />
       <UseBeforeLeavePractice />
+      <UseFadeInPractice />
+      <UseNetworkPractice />
     </div>
   );
 }
