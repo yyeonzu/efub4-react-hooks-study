@@ -10,6 +10,8 @@ import { UseFadeInPractice } from './hooks/useFadeIn';
 import { UseNetworkPractice } from './hooks/useNetwork';
 import { UseScrollPractice } from './hooks/useScroll';
 import { UseFullScreenPractice } from './hooks/useFullScreen';
+import { UseNotificationPractice } from './hooks/useNotificaton';
+import { UseAxiosPractice } from './hooks/useAxios';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <UseNetworkPractice />
       <UseScrollPractice />
       <UseFullScreenPractice />
+      <UseNotificationPractice />
+      <UseAxiosPractice />
     </div>
   );
 }
